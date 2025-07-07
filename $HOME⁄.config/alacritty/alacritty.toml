@@ -1,0 +1,16 @@
+# Configuración limpia de Alacritty en formato TOML
+
+[window]
+dynamic_title = false
+opacity = 0.9
+title = "Alacritty"
+dimensions = { columns = 80, lines = 24 }
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 12.0
+
+[colors]
+[colors.primary]
+background = "#151721"
+foreground = "#cdd6f4"
