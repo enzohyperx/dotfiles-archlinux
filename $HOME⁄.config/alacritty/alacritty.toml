@@ -1,8 +1,6 @@
-# Configuración limpia de Alacritty en formato TOML
-
 [window]
 dynamic_title = false
-opacity = 0.9
+opacity = 0.6
 title = "Alacritty"
 dimensions = { columns = 80, lines = 24 }
 
@@ -12,5 +10,5 @@ size = 12.0
 
 [colors]
 [colors.primary]
-background = "#151721"
-foreground = "#cdd6f4"
+background = "#1f2129"
+foreground = "#ffffff"
