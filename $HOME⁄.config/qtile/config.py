@@ -111,7 +111,7 @@ screens = [
 
                 widget.TextBox(
                     text="",
-                    fontsize=28,
+                    fontsize=30,
                     padding=-1,
                     foreground="#4a5682",
                     background="#1f2129",
@@ -120,7 +120,7 @@ screens = [
                 widget.CheckUpdates(
                     distro="Arch",
                     update_interval=1800,
-                    no_update_string="",
+                    no_update_string=" ",
                     display_format=" {updates}",
                     foreground="#b3c4fc",
                     background="#4a5682",
@@ -133,7 +133,7 @@ screens = [
 
                 widget.TextBox(
                     text="",
-                    fontsize=28,
+                    fontsize=30,
                     padding=-1,
                     foreground="#556180",
                     background="#4a5682",
@@ -147,7 +147,7 @@ screens = [
 
                 widget.TextBox(
                     text="",
-                    fontsize=28,
+                    fontsize=30,
                     padding=0,
                     foreground="#ffffff",
                     background="#556180",
@@ -161,10 +161,9 @@ screens = [
                     padding=-1,
                 ),
             ],
-            32,
+            34,
             margin=[4, 5, 2, 5],
             background="#1f2129",
-            opacity=7,
         ),
     ),
 ]
